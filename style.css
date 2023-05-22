@@ -1,0 +1,17 @@
+#paintbox{
+    border: dotted black 1px;
+    display: inline-block   ;
+}
+
+.win_mess{
+    /* display: inline-block; */
+    margin-left: 20px;
+    float: right;
+    margin-top: 220px;
+}
+
+.win_mess h1{
+    color: red;
+    font-size: 40px;
+    /* display: none; */
+}
