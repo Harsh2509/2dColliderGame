@@ -129,8 +129,15 @@ paintbox.addEventListener("mousedown", () => {
   player.speed = playerSpeed;
   //   console.log(playerSpeed);
 });
+paintbox.addEventListener("touchstart", (e) => {
+  e.preventDefault();
+  player.speed = playerSpeed;
+});
 paintbox.addEventListener("mouseup", () => {
   player.speed = 0;
 });
-
+paintbox.addEventListener("touchend", (e) => {
+  e.preventDefault();
+  player.speed = 0;
+});
 function wonMessage() {}
